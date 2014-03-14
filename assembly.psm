@@ -1,0 +1,5 @@
+LOOP:	IN	s1, 0xAF
+	IN	s2, 0xBC
+	XOR	s1, s2
+	OUT	s1, 0x07
+	JUMP	LOOP
